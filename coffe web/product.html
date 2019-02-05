@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Shop</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta charset="utf-8">
+   <meta name="keywords" content="coffe,coffe day,coffe placce, placce to sit,relax,rest,good coffe,tasty coffe" />
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1 class="site-heading text-center text-white d-none d-lg-block">
+    <span class="site-heading-upper text-primary mb-3">A New Day With Cofee</span>
+    <span class="site-heading-lower lw">Cofee Day</span>
+    </h1>
+	<main class="container">
+		<header class="">
+			<nav class="navbar navbar-inverse">
+              <div class="">
+                 <div class="navbar-header">
+                   <a class="navbar-brand" href="#">Cofee Day</a>
+                 </div>
+               <ul class="nav navbar-nav">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li class="dropdown" ><a class="dropdown-toggle active" data-toggle="dropdown" href="#">Products<span class="caret"></a>
+                 <ul class="dropdown-menu">
+                    <li><a href="product.html">coffe</a></li>
+                    <li><a href="product.html">coffe</a></li>
+                    <li><a href="product.html">coffe</a></li>
+                  </ul></li>
+                 <li><a href="stores.html">Stores</a></li>
+               </ul>
+              <ul class="nav navbar-nav navbar-right">
+               <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+               <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              </ul>
+            </div>
+           </nav>
+		</header>
+		<!--Body-->
+    <!--cards-->
+    <section class="col-sm-12">
+    <div class="card col-sm-4" style="width:370px">
+    <img class="card-img-top" src="img/h1.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title c1">Cappuccino</h4>
+      <p class="card-text c2">A cappuccino is an espresso-based coffee drink that originated in Italy</p>
+      <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Order</button>
+    </div>
+    </div>
+    <div class="card col-sm-4" style="width:370px">
+    <img class="card-img-top" src="img/card2.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title c1">Espresso</h4>
+      <p class="card-text c2">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species</p>
+     <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Order</button>
+    </div>
+    </div>
+    <div class="card col-sm-4" style="width:370px">
+    <img class="card-img-top" src="img/card3.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title c1">Flat White</h4>
+      <p class="card-text c2">A flat white is a coffee drink consisting of espresso with microfoam</p>
+     <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Order</button>
+    </div>
+    </div>
+    <div class="card col-sm-4 cd" style="width:370px">
+    <img class="card-img-top" src="img/card4.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title c1">Long Black</h4>
+      <p class="card-text c2">A long black is a style of coffee commonly found in New Zealand and Australia</p>
+      <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Order</button>
+    </div>
+    </div>
+    <div class="card col-sm-4 cd" style="width:370px">
+    <img class="card-img-top" src="img/card5.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title c1">Macchiato</h4>
+      <p class="card-text c2">Latte macchiato is a coffee beverage; the name literally means stained milk.</p>
+     <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Order</button>
+    </div>
+    </div>
+    <div class="card col-sm-4 cd" style="width:370px">
+    <img class="card-img-top" src="img/card6.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title c1">Irish Coffee</h4>
+      <p class="card-text c2">Irish coffee is a cocktail consisting of hot coffee, Irish whiskey, and sugar.</p>
+      <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Order</button>
+    </div>
+    </div>
+  </section>
+   <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Cofee</h4>
+          <h5>Address</h5>
+        </div>
+        <div class="modal-body">
+          <input type="text" class="form-control validate" name="name" placeholder="Name" required>
+          <input type="email" class="form-control validate" name="mail" placeholder="abc@gmail.com" required>
+          <input type="phone" class="form-control validate" name="num" placeholder="7204571490" required>
+          <textarea class="form-control validate" rows="5" name="address" placeholder="HSR" required></textarea>
+          <input type="number" class="form-control validate" name="otp" placeholder="4602" required>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" >Submit</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+    <!--Footer-->
+   <footer class="footer text-faded text-center py-5">
+    <div class="container">
+      <p class="m-0 small">Copyright &copy; CofeeDay 2019</p>
+    </div>
+  </footer>
+    </main>
+    <script type="text/javascript" src="bootstrap/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
